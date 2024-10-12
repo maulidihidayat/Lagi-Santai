@@ -14,7 +14,7 @@
     <title>Lagi santai</title>
   </head>
   <body class="bg-gray-50 font-Poppins">
-    <nav class="shadow-xl">
+    <nav id="scroll" class="shadow-xl sticky top-0 bg-white bg-opacity-10 z-10">
       <div class="flex justify-between">
         <!-- logo -->
         <div class="flex items-center space-x-3 p-4">
@@ -23,12 +23,36 @@
         </div>
 
         <ul class="flex space-x-6 items-center ml-96">
-          <li class="text-sm font-medium hover:text-gray-800">About us</li>
-          <li class="text-sm font-medium hover:text-gray-800">Services</li>
-          <li class="text-sm font-medium hover:text-gray-800">Case Studies</li>
-          <li class="text-sm font-medium hover:text-gray-800">Blog</li>
-          <li class="text-sm font-medium hover:text-gray-800">How it Works</li>
-          <li class="text-sm font-medium hover:text-gray-800">Hire</li>
+          <a href="/public/About/About.html"
+            class="text-sm font-medium hover:text-gray-800 relative inline-block text-black after:block after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-succes after:scale-x-0 after:origin-left hover:after:scale-x-100 after:transition after:duration-300 after:ease-in-out cursor-pointer"
+          >
+            About us
+          </a>
+          <a href="/public/Service/service.html"
+            class="text-sm font-medium hover:text-gray-800 relative inline-block text-black after:block after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-succes after:scale-x-0 after:origin-left hover:after:scale-x-100 after:transition after:duration-300 after:ease-in-out cursor-pointer"
+          >
+            Services
+          </a>
+          <a href="/public/case/caseStudiest.html"
+            class="text-sm font-medium hover:text-gray-800 relative inline-block text-black after:block after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-succes after:scale-x-0 after:origin-left hover:after:scale-x-100 after:transition after:duration-300 after:ease-in-out cursor-pointer"
+          >
+            Case Studies
+          </a>
+          <a href="Blog/Blog.html"
+            class="text-sm font-medium hover:text-gray-800 relative inline-block text-black after:block after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-succes after:scale-x-0 after:origin-left hover:after:scale-x-100 after:transition after:duration-300 after:ease-in-out cursor-pointer"
+          >
+            Blog
+          </a>
+          <a href="/public/Works/works.html"
+            class="text-sm font-medium hover:text-gray-800 relative inline-block text-black after:block after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-succes after:scale-x-0 after:origin-left hover:after:scale-x-100 after:transition after:duration-300 after:ease-in-out cursor-pointer"
+          >
+            How it Works
+          </a>
+          <a href="/public//Hire/hire.html"
+            class="text-sm font-medium hover:text-gray-800 relative inline-block text-black after:block after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-succes after:scale-x-0 after:origin-left hover:after:scale-x-100 after:transition after:duration-300 after:ease-in-out cursor-pointer"
+          >
+            Hire
+          </a>
         </ul>
         <div class="mt-5 p-2">
           <a
@@ -42,9 +66,18 @@
     <div class="flex p-16 mx-10 items-center">
       <div>
         <h1 class="text-2xl">
-          Great <span class="bg-gradient-to-br from-primary to-terriary bg-clip-text text-transparent">software</span> is
+          Great
+          <span
+            class="bg-gradient-to-br from-primary to-terriary bg-clip-text text-transparent"
+            >software</span
+          >
+          is
           <span class="text-5xl block font-bold"
-            >built by <span class="bg-gradient-to-br from-primary to-terriary bg-clip-text text-transparent">great teams</span></span
+            >built by
+            <span
+              class="bg-gradient-to-br from-primary to-terriary bg-clip-text text-transparent"
+              >great teams</span
+            ></span
           >
         </h1>
         <p class="w-[531px] h-[58px]">
@@ -52,7 +85,9 @@
           your vision to life
         </p>
         <div class="mt-5">
-          <a href="#" class="bg-primary px-7 py-5 rounded-lg text-white hover:bg-terriary hover:scale-110 transition duration-300" 
+          <a
+            href="#"
+            class="bg-primary px-7 py-5 rounded-lg text-white hover:bg-terriary hover:scale-110 transition duration-300"
             >Let's get Started</a
           >
         </div>
@@ -66,5 +101,13 @@
         />
       </div>
     </div>
+
+    <section>
+      <div class="bg-abu">
+        <h1>Service We Offer</h1>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
   </body>
 </html>
