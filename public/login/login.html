@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/output.css" />
+    <link rel="icon" href="./img/Vector.png" />
+    <title>Login</title>
+  </head>
+  <body style="font-family: 'Poppins'" class="overflow-y-hidden">
+    <div class="flex items-center justify-between min-h-screen">
+      <div class="p-20 bg-white mx-40 l ">
+        <div class="w-full">
+          <h1 class="text-4xl font-semibold">WELCOME BACK</h1>
+          <p class="text-sm">Welcome back! Please enter your details.</p>
+        </div>
+        <form>
+          <div class="mt-6">
+            <label for="Username">Username</label><br />
+            <input
+              type="text"
+              name="Username"
+              id="Username"
+              class="border rounded-lg placeholder:p-2 py-2 px-20 cursor-pointer"
+              placeholder="udin@gmail.com"
+            />
+          </div>
+          <div class="mt-6">
+            <label for="password">Password</label><br />
+            <input
+              class="border rounded-lg placeholder:p-2 py-2 px-20 text-center cursor-pointer"
+              type="password"
+              name="password"
+              id="password"
+              required
+              placeholder="******"
+            />
+          </div>
+          <div class="flex space-x-6 mt-4">
+            <div class="flex items-center">
+              <input
+                type="checkbox"
+                id="rememberme"
+                name="rememberme"
+                class="cursor-pointer"
+              />
+              <span class="text-sm ml-2">rememberme</span>
+              <div class="ml-20">
+                <a
+                  href="/public/index.html"
+                  class="w-full hover:underline whitespace-nowrap"
+                  >Forgot Password</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="mt-10">
+            <a href="#" class="bg-primary py-4 px-36 rounded-lg text-white"
+              >Login</a
+            >
+          </div>
+          <div class="flex mt-6">
+            <a
+              href="#"
+              class="flex rounded-lg space-x-2 bg-abu py-2 px-[75px] text-black"
+            >
+              <img
+                src="https://img.icons8.com/?size=100&id=V5cGWnc9R4xj&format=png&color=000000"
+                alt="google login"
+                width="28px"
+                height="28px"
+              />
+              Sign in with Google</a
+            >
+          </div>
+          <div class="text-sm mt-2 mx-8 whitespace-nowrap">
+            <a href="#"
+              >Don't have an account?
+              <span class="text-terriary">Sign up fo free!</span></a
+            >
+          </div>
+        </form>
+      </div>
+
+      <!-- image -->
+
+      <div class="hidden lg:flex lg:w-1/2">
+        <img
+          src="/public/img/Right Side.png"
+          alt="Responsive Image"
+          class="w-full h-auto object-cover"
+        />
+      </div>
+      
+      </div>
+    </div>
+  </body>
+</html>
